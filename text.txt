@@ -1,0 +1,71 @@
+1.QUESTION OUTPUT 
+for 
+script.js:22 English
+script.js:22 Tamil
+script.js:22 Hindi
+for in
+script.js:27 0 C
+script.js:27 1 C++
+script.js:27 2 AUTOCAD
+script.js:27 3 STAAD PRO
+for of
+script.js:32 C
+script.js:32 C++
+script.js:32 AUTOCAD
+script.js:32 STAAD PRO
+
+2.RESUME OUTPUT
+{Name: 'G.SARVESWARAN', DOB: '26.11.1999', Education: 'BE-CIVIL', Email: 'abcd123@gmail.com', Phone: '9998887776', …}
+DOB
+: 
+"26.11.1999"
+Education
+: 
+"BE-CIVIL"
+Email
+: 
+"abcd123@gmail.com"
+Experience
+: 
+"Fresher"
+Language
+: 
+(3) ['English', 'Tamil', 'Hindi']
+Name
+: 
+"G.SARVESWARAN"
+Phone
+: 
+"9998887776"
+Skill
+: 
+(4) ['C', 'C++', 'AUTOCAD', 'STAAD PRO']
+[[Prototype]]
+
+
+
+3.DIFFERENCE BETWEEN WINDOW SECREEN AND OBJECT 
+WINDOW
+1.JavaScript window object sits at the top of the js object 
+2.window is suppoeted by all browsers
+3.All global JavaScript objects , functions, and variables automatically become members of the window object. 
+4. first thing that loaded into the browser is window
+5.This window object has the majority of the properties like length, innerWidth, innerHeight, name.
+6.It holds things like window.location, window.history, window.screen, window.status, or the window.document
+
+
+Document
+1.The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree
+2.When an HTML document is loaded into a web browser , it becomes a document object
+3.The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie, etc
+
+Screen
+1. screen is the about physical dimensions of the screen
+2. It is used to display colurdepth,height,width,pixelDepth etc
+3. properties: screen.height, screen.width.
+
+
+
+
+
+
